@@ -1,4 +1,7 @@
 module.exports = {
+  // Tells ESLint to stop looking for the config file when it reaches the project root directory
+  root: true,
+
   // Which environments is your script meant to run <input type="text" name="" id=""/>
   env: {
     browser: true,
