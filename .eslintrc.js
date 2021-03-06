@@ -40,6 +40,13 @@ module.exports = {
     'filenames',
   ],
 
+  settings: {
+    // To remove eslint version detection warning for react
+    react: {
+      version: 'detect',
+    },
+  },
+
   // Used to fine-grain eslint and customize just what we want Eslint to enforce or not. Allows us to modify the way Eslint works
   /* "off" or 0 - turn the rule off
 		"warn" or 1 - turn the rule on as a warning (doesn't affect exit code)
