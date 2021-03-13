@@ -74,7 +74,7 @@ module.exports = {
     'react/no-array-index-key': 2,
     'react/no-danger': 2,
 
-    'filenames/match-exported': [2, ['camel', 'pascal']],
+    'filenames/match-exported': [0, ['camel', 'pascal']],
 
     camelcase: [
       2,
