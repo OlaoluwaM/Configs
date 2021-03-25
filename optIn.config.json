@@ -35,7 +35,7 @@
     "otherFilesToRemove": ["tailwind.config.js"],
     "customScripts": []
   },
-  "tailwindCSSCRA": {
+  "tailwindCRA": {
     "added": false,
     "devDeps": [
       "tailwindcss@npm:@tailwindcss/postcss7-compat",
@@ -49,7 +49,7 @@
       "https://raw.githubusercontent.com/OlaoluwaM/thefellowshipoftheconfigs/main/craco.config.js"
     ],
     "customCommands": ["npx tailwindcss init --full"],
-    "otherFilesToRemove": ["tailwind.config.js"],
+    "otherFilesToRemove": ["tailwind.config.js", "src/tailwind.css"],
     "customScripts": []
   },
   "jest": {
