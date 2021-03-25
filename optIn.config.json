@@ -20,8 +20,7 @@
       "https://raw.githubusercontent.com/OlaoluwaM/thefellowshipoftheconfigs/main/.prettierignore"
     ],
     "customCommands": [],
-    "otherFilesToRemove": [],
-    "customScripts": []
+    "otherFilesToRemove": []
   },
   "tailwindCSS": {
     "added": false,
@@ -32,8 +31,7 @@
       "../../midas_pizza/submodule-script.sh"
     ],
     "customCommands": ["npx tailwindcss init --full"],
-    "otherFilesToRemove": ["tailwind.config.js"],
-    "customScripts": []
+    "otherFilesToRemove": ["tailwind.config.js"]
   },
   "tailwindCRA": {
     "added": false,
@@ -49,8 +47,7 @@
       "https://raw.githubusercontent.com/OlaoluwaM/thefellowshipoftheconfigs/main/craco.config.js"
     ],
     "customCommands": ["npx tailwindcss init --full"],
-    "otherFilesToRemove": ["tailwind.config.js", "src/tailwind.css"],
-    "customScripts": []
+    "otherFilesToRemove": ["tailwind.config.js", "src/tailwind.css"]
   },
   "jest": {
     "added": false,
@@ -58,7 +55,6 @@
     "regularDeps": [],
     "configAddresses": [],
     "customCommands": [],
-    "otherFilesToRemove": [],
-    "customScripts": []
+    "otherFilesToRemove": []
   }
 }
