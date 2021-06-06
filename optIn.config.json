@@ -3,19 +3,29 @@
     "added": false,
     "devDeps": [
       "eslint",
-      "eslint-plugin-react",
-      "eslint-plugin-jsx-a11y",
       "eslint-plugin-prettier",
       "eslint-config-prettier",
-      "eslint-plugin-filenames",
-      "eslint-plugin-react-hooks",
-      "eslint-plugin-better-styled-components"
+      "eslint-plugin-filenames"
     ],
     "regularDeps": [],
     "configAddresses": [
       "https://raw.githubusercontent.com/OlaoluwaM/thefellowshipoftheconfigs/main/.eslintrc.js",
       "https://raw.githubusercontent.com/OlaoluwaM/thefellowshipoftheconfigs/main/.eslintignore"
     ],
+    "customCommands": [],
+    "otherFilesToRemove": []
+  },
+
+  "eslintReact": {
+    "added": false,
+    "devDeps": [
+      "eslint-plugin-react",
+      "eslint-plugin-jsx-a11y",
+      "eslint-plugin-react-hooks",
+      "eslint-plugin-better-styled-components"
+    ],
+    "regularDeps": [],
+    "configAddresses": [],
     "customCommands": [],
     "otherFilesToRemove": []
   },
@@ -57,6 +67,26 @@
       "https://raw.githubusercontent.com/OlaoluwaM/thefellowshipoftheconfigs/main/.prettierignore"
     ],
     "customCommands": [],
+    "otherFilesToRemove": []
+  },
+
+  "eslintTS": {
+    "added": false,
+    "devDeps": ["@typescript-eslint/parser", "@typescript-eslint/eslint-plugin"],
+    "regularDeps": [],
+    "configAddresses": [
+      "https://raw.githubusercontent.com/OlaoluwaM/thefellowshipoftheconfigs/main/typescript/.eslintrc.js"
+    ],
+    "customCommands": [],
+    "otherFilesToRemove": []
+  },
+
+  "TS": {
+    "added": false,
+    "devDeps": ["typescript"],
+    "regularDeps": [],
+    "configAddresses": [],
+    "customCommands": ["npx tsc --init"],
     "otherFilesToRemove": []
   }
 }
