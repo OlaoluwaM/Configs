@@ -12,8 +12,8 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
-    'plugin:prettier/recommended',
     'plugin:jsx-a11y/recommended',
+    "'plugin:prettier/recommended',",
   ],
 
   parserOptions: {
@@ -30,14 +30,7 @@ module.exports = {
 
   // Allows extending a plugin file (eslint-plugin-<name>)
   // Plugins add custom capabilities that aren't implemented in the ESlint core. Essentially they are like supplements for ESlint so it can tackle more things
-  plugins: [
-    'react',
-    'better-styled-components',
-    'react-hooks',
-    'jsx-a11y',
-    'filenames',
-    'prettier',
-  ],
+  plugins: ['react', 'better-styled-components', 'react-hooks', 'jsx-a11y', 'filenames'],
 
   settings: {
     // To remove eslint version detection warning for react

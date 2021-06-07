@@ -72,7 +72,7 @@
 
   "eslintTS": {
     "added": false,
-    "devDeps": ["@typescript-eslint/parser", "@typescript-eslint/eslint-plugin"],
+    "devDeps": ["@typescript-eslint/parser"],
     "regularDeps": [],
     "configAddresses": [
       "https://raw.githubusercontent.com/OlaoluwaM/thefellowshipoftheconfigs/main/typescript/.eslintrc.js"
