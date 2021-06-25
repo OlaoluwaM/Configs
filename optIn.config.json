@@ -37,7 +37,7 @@
     "configAddresses": [
       "https://raw.githubusercontent.com/OlaoluwaM/thefellowshipoftheconfigs/main/postcss.config.js"
     ],
-    "customCommands": ["npx tailwindcss init --full"],
+    "customCommands": ["npx tailwindcss@latest init --full"],
     "otherFilesToRemove": ["tailwind.config.js"]
   },
 
@@ -45,7 +45,6 @@
     "added": false,
     "devDeps": [
       "tailwindcss@npm:@tailwindcss/postcss7-compat",
-      "@tailwindcss/postcss7-compat",
       "postcss@^7",
       "autoprefixer@^9",
       "sass"
@@ -54,7 +53,7 @@
     "configAddresses": [
       "https://raw.githubusercontent.com/OlaoluwaM/thefellowshipoftheconfigs/main/craco.config.js"
     ],
-    "customCommands": ["npx tailwindcss init --full"],
+    "customCommands": ["npx tailwindcss@latest init --full"],
     "otherFilesToRemove": ["tailwind.config.js", "src/tailwind.css"]
   },
 
@@ -72,7 +71,7 @@
 
   "eslintTS": {
     "added": false,
-    "devDeps": ["@typescript-eslint/parser"],
+    "devDeps": ["@typescript-eslint/parser", "@typescript-eslint/eslint-plugin"],
     "regularDeps": [],
     "configAddresses": [
       "https://raw.githubusercontent.com/OlaoluwaM/thefellowshipoftheconfigs/main/typescript/.eslintrc.js"
@@ -83,7 +82,23 @@
 
   "TS": {
     "added": false,
-    "devDeps": ["typescript"],
+    "devDeps": ["typescript", "@types/node"],
+    "regularDeps": [],
+    "configAddresses": [],
+    "customCommands": ["npx tsc --init"],
+    "otherFilesToRemove": []
+  },
+
+  "TSReact": {
+    "added": false,
+    "devDeps": [
+      "typescript",
+      "@types/node",
+      "@types/react",
+      "@types/react-dom",
+      "@types/jest",
+      "@types/react-router-dom"
+    ],
     "regularDeps": [],
     "configAddresses": [],
     "customCommands": ["npx tsc --init"],
