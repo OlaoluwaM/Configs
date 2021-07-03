@@ -4,6 +4,7 @@ module.exports = {
 
   // Which environments is your script meant to run <input type="text" name="" id=""/>
   env: {
+    node: true,
     browser: true,
     es2021: true, // What level of Javascript should be allowed, enables ES2021 features in JS
   },
@@ -13,6 +14,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
+    'react-app',
     'plugin:prettier/recommended',
   ],
 
@@ -30,7 +32,7 @@ module.exports = {
 
   // Allows extending a plugin file (eslint-plugin-<name>)
   // Plugins add custom capabilities that aren't implemented in the ESlint core. Essentially they are like supplements for ESlint so it can tackle more things
-  plugins: ['react', 'better-styled-components', 'react-hooks', 'jsx-a11y', 'filenames'],
+  plugins: ['react', 'better-styled-components', 'jsx-a11y'],
 
   settings: {
     // To remove eslint version detection warning for react
@@ -54,7 +56,6 @@ module.exports = {
     'no-eval': ['error'],
     'linebreak-style': ['error', 'unix'],
 
-    'prettier/prettier': ['error'],
     'react-hooks/rules-of-hooks': 'error',
 
     'react-hooks/exhaustive-deps': 'warn',
@@ -65,8 +66,6 @@ module.exports = {
 
     'react/no-array-index-key': 2,
     'react/no-danger': 2,
-
-    'filenames/match-exported': [0, ['camel', 'pascal']],
 
     camelcase: [
       2,
