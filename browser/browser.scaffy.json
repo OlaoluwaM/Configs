@@ -1,0 +1,17 @@
+{
+  "cra-plus": {
+    "depNames": ["framer-motion", "styled-components", "react-router-dom"],
+    "devDepNames": [
+      "eslint-config-prettier",
+      "@typescript-eslint/eslint-plugin",
+      "@typescript-eslint/parser",
+      "prop-types"
+    ],
+    "localConfigurationPaths": [
+      "../common/.eslintignore",
+      "../common/.prettierrc",
+      "../common/.prettierignore",
+      "../node/commitlint.config.js"
+    ]
+  }
+}

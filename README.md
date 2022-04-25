@@ -1,3 +1,3 @@
 # The Fellowship of the Configurations
 
-My configs 🙂
+My configs ⚡ with scaffy
