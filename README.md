@@ -1,3 +1,4 @@
-# The Fellowship of the Configurations
+# The Fellowship of the Configurations (Deprecated)
 
-My configs 🙂
+This branch exists because one of my (OS
+projects)[https://www.github.com/OlaoluwaM/scaffy] depends on some of the files from here
