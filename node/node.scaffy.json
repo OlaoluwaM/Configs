@@ -19,13 +19,13 @@
       "@typescript-eslint/eslint-plugin",
       "@typescript-eslint/parser"
     ],
-    "localConfigurationPaths": [
-      "./.eslintrc.cjs",
-      "../common/.eslintignore",
-      "../common/.prettierrc",
-      "../common/.prettierignore",
-      "./jest.config.cjs",
-      "./commitlint.config.cjs"
+    "remoteConfigurationUrls": [
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/node/.eslintrc.cjs",
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.eslintignore",
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.prettierrc",
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.prettierignore",
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/node/jest.config.cjs",
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/node/commitlint.config.cjs"
     ]
   },
 
@@ -49,13 +49,13 @@
       "@typescript-eslint/eslint-plugin",
       "@typescript-eslint/parser"
     ],
-    "localConfigurationPaths": [
-      "./.eslintrc.js",
-      "../common/.eslintignore",
-      "../common/.prettierrc",
-      "../common/.prettierignore",
-      "./jest.config.js",
-      "./commitlint.config.js"
+    "remoteConfigurationUrls": [
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/node/.eslintrc.js",
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.eslintignore",
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.prettierrc",
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.prettierignore",
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/node/jest.config.js",
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/node/commitlint.config.js"
     ]
   }
 }

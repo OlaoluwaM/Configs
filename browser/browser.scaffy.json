@@ -7,11 +7,11 @@
       "@typescript-eslint/parser",
       "prop-types"
     ],
-    "localConfigurationPaths": [
-      "../common/.eslintignore",
-      "../common/.prettierrc",
-      "../common/.prettierignore",
-      "../node/commitlint.config.js"
+    "remoteConfigurationUrls": [
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.eslintignore",
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.prettierrc",
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.prettierignore",
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/node/commitlint.config.js"
     ]
   }
 }
