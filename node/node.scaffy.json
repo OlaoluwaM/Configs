@@ -1,0 +1,61 @@
+{
+  "node-ts-esm": {
+    "devDepNames": [
+      "@commitlint/cli",
+      "@commitlint/config-conventional",
+      "@types/node",
+      "typescript",
+      "ts-jest",
+      "eslint",
+      "eslint-config-airbnb-base",
+      "eslint-config-prettier",
+      "eslint-import-resolver-typescript",
+      "eslint-plugin-import",
+      "eslint-plugin-jest",
+      "jest",
+      "@types/jest",
+      "prettier",
+      "@types/eslint-config-prettier",
+      "@typescript-eslint/eslint-plugin",
+      "@typescript-eslint/parser"
+    ],
+    "localConfigurationPaths": [
+      "./.eslintrc.cjs",
+      "../common/.eslintignore",
+      "../common/.prettierrc",
+      "../common/.prettierignore",
+      "./jest.config.cjs",
+      "./commitlint.config.cjs"
+    ]
+  },
+
+  "node-ts": {
+    "devDepNames": [
+      "@commitlint/cli",
+      "@commitlint/config-conventional",
+      "@types/node",
+      "typescript",
+      "ts-jest",
+      "eslint",
+      "eslint-config-airbnb-base",
+      "eslint-config-prettier",
+      "eslint-import-resolver-typescript",
+      "eslint-plugin-import",
+      "eslint-plugin-jest",
+      "jest",
+      "@types/jest",
+      "prettier",
+      "@types/eslint-config-prettier",
+      "@typescript-eslint/eslint-plugin",
+      "@typescript-eslint/parser"
+    ],
+    "localConfigurationPaths": [
+      "./.eslintrc.js",
+      "../common/.eslintignore",
+      "../common/.prettierrc",
+      "../common/.prettierignore",
+      "./jest.config.js",
+      "./commitlint.config.js"
+    ]
+  }
+}
