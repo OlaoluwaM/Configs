@@ -1,6 +1,7 @@
 {
   "node-fp": {
-    "depNames": ["ramda", "fp-ts"]
+    "depNames": ["ramda", "fp-ts"],
+    "devDepNames": ["@types/ramda"]
   },
 
   "node-ts": {
@@ -28,7 +29,7 @@
       "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.eslintignore",
       "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.prettierrc",
       "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.prettierignore",
-      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/node/jest.config.js",
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/node/jest.config.ts",
       "https://raw.githubusercontent.com/OlaoluwaM/configs/main/node/commitlint.config.js"
     ]
   },
@@ -43,7 +44,7 @@
       "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.eslintignore",
       "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.prettierrc",
       "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.prettierignore",
-      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/node/jest.config.cjs",
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/node/jest.config.ts",
       "https://raw.githubusercontent.com/OlaoluwaM/configs/main/node/commitlint.config.cjs"
     ]
   }

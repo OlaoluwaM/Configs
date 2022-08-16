@@ -1,6 +1,7 @@
 {
   "browser-fp": {
-    "depNames": ["ramda", "fp-ts"]
+    "depNames": ["ramda", "fp-ts"],
+    "devDepNames": ["@types/ramda"]
   },
 
   "cra-plus-simple": {
