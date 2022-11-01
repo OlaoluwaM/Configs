@@ -54,5 +54,6 @@ module.exports = {
     'import/prefer-default-export': 'warn',
 
     'import/no-extraneous-dependencies': 'warn',
+    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
   },
 };

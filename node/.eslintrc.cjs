@@ -40,11 +40,13 @@ module.exports = {
       {
         ts: 'never',
         tsx: 'never',
+        mts: 'never',
+        cts: 'never',
       },
     ],
 
     'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': ['warn'],
+    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
 
     'import/prefer-default-export': 0,
 
@@ -66,5 +68,11 @@ module.exports = {
     'class-methods-use-this': 'off',
 
     'consistent-return': 'warn',
+    'no-param-reassign': ['error', { props: false }],
+
+    'import/no-extraneous-dependencies': [
+      'error',
+      { devDependencies: ['test/**/*.ts', 'tests/**/*.ts', 'src/lib/**/test.ts', 'jest.config.ts'] },
+    ],
   },
 };
