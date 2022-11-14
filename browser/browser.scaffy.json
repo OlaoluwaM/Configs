@@ -1,6 +1,6 @@
 {
   "fp": {
-    "depNames": ["fp-ts"]
+    "depNames": ["fp-ts", "io-ts", "monocle-ts"]
   },
 
   "extend-react-app": {
@@ -13,19 +13,22 @@
       "prop-types",
       "eslint-config-airbnb",
       "eslint-plugin-import",
+      "eslint-config-react-app",
       "eslint-plugin-jsx-a11y",
       "eslint-plugin-react",
       "eslint-plugin-react-hooks",
       "eslint-plugin-jest-dom",
       "eslint-plugin-testing-library",
-      "prettier"
+      "prettier",
+      "sass",
+      "vite-plugin-svgr"
     ],
     "remoteConfigurationUrls": [
-      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/browser/.eslintrc.cjs",
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/browser/.eslintrc.js",
       "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.eslintignore",
       "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.prettierrc",
       "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.prettierignore",
-      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/commitlint.config.cjs"
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/commitlint.config.js"
     ]
   }
 }

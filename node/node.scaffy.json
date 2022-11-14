@@ -1,6 +1,6 @@
 {
   "fp": {
-    "depNames": ["fp-ts"]
+    "depNames": ["fp-ts", "io-ts", "monocle-ts"]
   },
 
   "node-ts": {
