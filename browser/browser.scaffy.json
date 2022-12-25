@@ -24,7 +24,7 @@
       "vite-plugin-svgr"
     ],
     "remoteConfigurationUrls": [
-      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/browser/.eslintrc.js",
+      "https://raw.githubusercontent.com/OlaoluwaM/configs/main/browser/.eslintrc.cjs",
       "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.eslintignore",
       "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.prettierrc",
       "https://raw.githubusercontent.com/OlaoluwaM/configs/main/common/.prettierignore",
